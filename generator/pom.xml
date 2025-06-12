@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>common</artifactId>
-        <groupId>io.admin-shell.aas</groupId>
+        <groupId>org.eclipse.aas4j</groupId>
         <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>fr.inria.wimmics</groupId>
             <artifactId>kgtool</artifactId>
-            <version>3.2.1</version>
+            <version>3.2.0</version>
             <exclusions>
                 <exclusion>
                     <artifactId>jws</artifactId>
@@ -38,8 +38,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>7</source>
+                    <target>7</target>
                 </configuration>
             </plugin>
 
