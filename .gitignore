@@ -3,6 +3,7 @@
 *.log
 */target/
 **/.flattened-pom.xml
+**/*.DS_Store
 
 .idea/
 
